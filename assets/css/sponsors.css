@@ -1,0 +1,48 @@
+#sponsors {
+    background-color: var(--primary-color);
+    padding: 20px;
+    height: 275px;
+
+    & .container {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media (min-width: 768px) {
+            justify-content: space-evenly;
+            gap: 30px;
+        }
+
+        @media (min-width: 885px) {
+            justify-content: space-evenly;
+            gap: 70px;
+        }
+
+        @media (min-width: 992px) {
+            justify-content: space-evenly;
+            gap: 20px;
+        }
+    }
+
+    @media (min-width: 512px) {
+        padding: 20px;
+        height: 200px;
+    }
+
+    @media (min-width: 768px) {
+        padding: 20px;
+        height: 200px;
+    }
+
+    @media (min-width: 885px) {
+        padding: 20px;
+        height: 250px;
+    }
+
+    @media (min-width: 992px) {
+        padding: 20px;
+        height: 100px;
+    }
+}
